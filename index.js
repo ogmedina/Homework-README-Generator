@@ -66,7 +66,7 @@ inquirer.prompt([
     
 
 promptUser()
-    .then((data) => writeFileAsync('readme.md', generateMarkdown(data)))
+    .then((data) => writeFileAsync('./created/readme.md', generateMarkdown(data)))
     .then(() => console.log ('Succesfully wrote to README.md'))
     .catch((err) => console.error(err));
 
