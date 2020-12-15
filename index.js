@@ -1,10 +1,14 @@
+//require inquirer package
 const inquirer = require('inquirer');
+//require file system
 const fs = require('fs');
+//require generateMarkdown function from other file
 const generateMarkdown = require('./utils/generateMarkdown');
+//require Node util to help write async file
 const util = require('util');
 
 const writeFileAsync = util.promisify(fs.writeFile);
-
+// prompt user function to ask questions in CLI
 const promptUser = () =>
 inquirer.prompt([
     {
@@ -64,31 +68,9 @@ inquirer.prompt([
 
     ]);
     
-
+//function to create file and console.log "Succesfully wrote to Readme.md", and catch errors
 promptUser()
     .then((data) => writeFileAsync('./created/readme.md', generateMarkdown(data)))
     .then(() => console.log ('Succesfully wrote to README.md'))
     .catch((err) => console.error(err));
 
-// function to write README file
-//function writeToFile(fileName, data) {
-//}
-
-// function to initialize program
-//function init() {
-
-//}
-
-// function call to initialize program
-//init();
-
-
-
-//.then((data) => {
-  //  console.log(JSON.stringify(data, null, ' '));
-//});
-
-// array of questions for user
-//const questions = [
-
-//];
