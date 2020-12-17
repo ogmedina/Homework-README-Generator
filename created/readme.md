@@ -3,7 +3,7 @@
   ![GitHub](https://img.shields.io/github/license/ogmedina/Homework-README-Generator)
 
   ## Description
-  It is a command-line application that dynamically generates a professional README file from a user's input using Node.js and the Inquirer package.
+  This project is a command-line application that dynamically generates a professional README file.
 
   ## Table of Contents
 
@@ -20,13 +20,13 @@
   npm i
 
   ## Usage 
-  This is a very easy way for a user to create standard readme files quickly
+  Get in contact with me!
 
   ## License
   This project is licensed under the MIT License.
 
   ## Contributing
-  If you feel you would like to contribute, please email me!
+  Please contact me ASAP!
 
   ## Tests
   To run tests, run the following command:

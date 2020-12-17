@@ -24,7 +24,11 @@ The program can then be run using the following command line in the bash termina
 node index.js
 ```
 ### Screenshots 
-[Here](http://bit.ly/3mtuSXY) is a video walkthrough of the project.
+[Here](http://bit.ly/3p0x7DJ) is a video walkthrough of the project.
+
+![readme1](./images/readmegenerator1.JPG)
+
+![readme1](./images/readmegenerator2.JPG)
 
 ### License
 This project is licensed under the MIT License. 
