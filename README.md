@@ -24,7 +24,7 @@ The program can then be run using the following command line in the bash termina
 node index.js
 ```
 ### Screenshots 
-Here is a video walkthrough of the project.
+[Here](http://bit.ly/3mtuSXY) is a video walkthrough of the project.
 
 ### License
 This project is licensed under the MIT License. 

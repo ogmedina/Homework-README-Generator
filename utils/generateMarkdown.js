@@ -37,7 +37,7 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You 
-  can find more of my work at [${data.githubuser}](https://github.com/${data.githubuser}/)
+  can find more of my work at my [GitHub Account](https://github.com/${data.githubuser}/)
   
 
 `};
