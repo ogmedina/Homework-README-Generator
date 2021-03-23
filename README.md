@@ -1,10 +1,7 @@
-# Homework-README-Generator
-![GitHub](https://img.shields.io/github/license/ogmedina/Homework-README-Generator)
+# README Generator
+![GitHub](https://img.shields.io/github/license/ogmedina/README-Generator)
 
-## Full Stack Boot Camp Homework 9 - Readme Generator
-
-### Description
-This is the ninth assignment for the UTSA Full-Stack Bootcamp. It is a command-line application that dynamically generates a professional README file from a user's input using Node.js and the [Inquirer Package](https://www.npmjs.com/package/inquirer).
+This repo is a command-line application that dynamically generates a professional README file from a user's input using Node.js and the [Inquirer Package](https://www.npmjs.com/package/inquirer).
 
 ### Table of Contents
 
@@ -40,4 +37,3 @@ Back End:
 
 ### Questions
 If you have any questions about the repo, open an issue or contact me directly at ogmdeveloper0@gmail.com. You can find more of my work through my [GitHub Account](https://github.com/ogmedina/).
-
